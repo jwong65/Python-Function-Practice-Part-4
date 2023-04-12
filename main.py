@@ -13,3 +13,7 @@ def mult_list(list):
     return product
 # print(mult_list([1,3,5]))
 # print(mult_list([3,5,0]))
+
+def reverse_string(string):
+    return string[::-1]
+print(reverse_string("Jello"))
