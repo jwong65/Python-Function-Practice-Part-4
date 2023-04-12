@@ -17,3 +17,12 @@ def mult_list(list):
 def reverse_string(string):
     return string[::-1]
 print(reverse_string("Jello"))
+
+def num_within( number, beginning, end):
+    if (number<end and number>beginning):
+        return True
+    else:
+        return False
+# print(num_within( 5, 1, 10))
+# print(num_within(2, 3, 10))
+
